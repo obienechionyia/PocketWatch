@@ -1,9 +1,9 @@
-import React, { createContext, useReducer, useState } from "react";
+import React, { createContext, useReducer, useState, useEffect } from "react";
 import AppReducer from "./AppReducer.js";
 
 // Initial state
 const initialState = {
-  transactions: [{ id: 1, text: "Flower", amount: -20 }],
+  transactions: [],
 };
 
 // Create context

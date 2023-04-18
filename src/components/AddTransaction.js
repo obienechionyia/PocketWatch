@@ -12,6 +12,10 @@ const AddTransaction = () => {
       amount: Number(amount),
     };
     addTransaction(newTransaction);
+
+    // Reset field values
+    setText("");
+    setAmount(0);
   };
 
   return (
