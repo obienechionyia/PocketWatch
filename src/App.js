@@ -11,7 +11,7 @@ import { GlobalProvider } from "./context/GlobalState.js";
 function App() {
   return (
     <GlobalProvider>
-      <Header title="Expense Tracker" />
+      <Header title="PocketWatch™" />
       <div className="container">
         <Balance />
         <IncomeExpenses />

@@ -149,3 +149,12 @@ input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+.header-container {
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+  margin-top: 20px;
+}
